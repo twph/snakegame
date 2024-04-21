@@ -1,4 +1,6 @@
-python
+python=3.9
+python3-tk
 turtle
 random
 tkinter
+time
