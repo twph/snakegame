@@ -18,7 +18,16 @@ RUN apt-get update && apt-get install -y \
     libxext6 \
     libxrender-dev \
     tk-dev \
-    tcl-dev
+    tcl-dev \
+    libsqlite3-dev \
+    libssl-dev \
+    libreadline-dev \
+    libncurses5-dev \
+    libncursesw5-dev \
+    xz-utils \
+    zlib1g-dev \
+    libffi-dev \
+    libbz2-dev
 
 COPY . .
 
